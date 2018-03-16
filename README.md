@@ -21,15 +21,19 @@ Giving it the parameters according to the usage needed
   ex. python RSA-Encryption-Algorithm.py  init bodineac_keys 512
    
    
- # to encrypt data: 
+ # To encrypt data: 
  python RSA-Encryption-Algorithm.py  encrypt <keys_filename> <plaintext_filename> <ciphertext_filename>
  ex. python RSA-Encryption-Algorithm.py  encrypt bodineac_keys plaintext ciphertext
   
   
-  # to decrypt data: 
+  # To decrypt data: 
   
   python RSA-Encryption-Algorithm.py  decrypt <keys_filename> <ciphertext_filename> <decrypted_filename>
   ex. python RSA-Encryption-Algorithm.py decrypt bodineac_keys ciphertext decrypted
   
   Thank you :D
+  
+  # TO-DO:
+  -Create a Voice encryption software by changing the voice notes into a BSON file
+  -Create a block-chain RSA encryptor
 
